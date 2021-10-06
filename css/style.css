@@ -227,7 +227,61 @@ nav li a:hover{
     margin-top: 20px;
     line-height: 1.7;
 }
+/* footer */
 
+
+footer{
+    margin-top: 100px;
+    background-color: #23272a;
+}
+
+footer .container{
+    padding-top: 50px;
+}
+
+.footer-top .footer-left{
+    float: left;
+    width: 30%;
+    color: white;
+
+}
+
+.footer-left h3{
+    font-size: 33px;
+    color: #7289da;
+    margin-bottom: 20px;
+}
+
+.footer-left img{
+    height: 15px;
+    vertical-align: middle;
+
+}
+
+.footer-top .footer-right{
+    float: left;
+    width: 70%;
+    background-color: tomato
+    ;
+}
+
+.lingua{
+    height: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+
+.lingua span{
+    font-size: 12px;
+}
+
+.lingua i{
+    font-size: 10px;
+}
+
+.social i{
+    margin-right: 10px;
+}
 /* debug */
 
 .debug .container{
@@ -258,7 +312,15 @@ nav li a:hover{
     background-color:brown ;
 } */
 
-.debug footer{
+/* .debug footer{
     height: 500px;
     background-color: cyan;
+} */
+
+.footer-left{
+    height: 300px;
+}
+
+.footer-right{
+    height: 300px;
 }
