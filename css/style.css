@@ -3,3 +3,122 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 80px;
+    background-color: #3161e0;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+
+#accedi{
+    text-align: right;
+}
+
+#logo,
+#accedi{
+    width: 25%;
+    float: left;
+}
+
+nav{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+nav li{
+    display:inline-block;
+    list-style: none;
+}
+
+nav li a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 15px;  
+
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* button */
+.btn{
+    background-color:white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+ .btn:hover {
+    text-decoration: none;
+}
+
+#jumbotron{
+    height: 550px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+}
+
+/* debug */
+
+.debug .container{
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+/* .debug .riga div{
+    height: 80px;
+    background-color: violet;
+}
+
+.debug .riga nav{
+    height: 80px;
+    background-color: tomato;
+} */
+
+/* .debug header{
+    background-color: pink;
+} */
+
+/* .debug #jumbotron{
+    background-color: greenyellow;
+} */
+
+.debug main{
+    height: 600px;
+    background-color:brown ;
+}
+
+.debug footer{
+    height: 500px;
+    background-color: cyan;
+}
