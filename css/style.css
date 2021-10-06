@@ -129,6 +129,55 @@ nav li a:hover{
     margin: 0 10px;
 }
 
+/* main */
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#section-1{
+    margin-top: 60px;
+}
+
+#section-1 img{
+    padding-top: 40px;
+    width: 60%;
+    float:left;
+   
+    
+}
+
+#section-1 .text{
+    width: 40%;
+    float: left;
+    padding-top: 60px;
+}
+
+#section-2{
+    margin-top: 100px;
+}
+
+#section-2 .text{
+    width: 50%;
+    float: left;
+}
+
+#section-2 img{
+    padding-top: 40px;
+    width: 50%;
+    float: left;
+}
+
+.text h2{
+    font-size: 55px;
+}
+
+.text p{
+    margin-top: 20px;
+    line-height: 1.7;
+}
 
 /* debug */
 
@@ -155,10 +204,10 @@ nav li a:hover{
     background-color: greenyellow;
 } */
 
-.debug main{
+/* .debug main{
     height: 600px;
     background-color:brown ;
-}
+} */
 
 .debug footer{
     height: 500px;
