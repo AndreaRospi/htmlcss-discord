@@ -288,6 +288,8 @@ footer{
 .social i{
     margin-right: 10px;
 }
+/* /footer-top */
+
 
 .footer-right{
     
@@ -299,6 +301,10 @@ footer{
     line-height: 1.8;
     float: left;
     margin-right: 80px;
+}
+
+.footer-right ul h4{
+    color: #7289da;
 }
 
 
