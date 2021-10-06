@@ -47,6 +47,8 @@ a{
     float: left;
 }
 
+/* nav-bar */
+
 nav{
     width: 50%;
     float: left;
@@ -69,6 +71,7 @@ nav li a{
 nav li a:hover{
     text-decoration: underline;
 }
+/* /nav-bar */
 
 
 /* button */
@@ -97,6 +100,9 @@ nav li a:hover{
  .btn:hover {
     text-decoration: none;
 }
+/* /button */
+
+/* inizio jumbo */
 
 #jumbotron{
     height: 550px;
@@ -128,6 +134,7 @@ nav li a:hover{
 #jumbotron .btn{
     margin: 0 10px;
 }
+/* /jumbo */
 
 /* main */
 
